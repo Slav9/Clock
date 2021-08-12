@@ -1,2 +1,2 @@
-# Clock
-myfirstclock
+# console
+different programki
