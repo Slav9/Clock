@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Main3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double a,b,c,dis,x1,x2;
+        System.out.println("Введите коэффициенты a,b,c");
+        a = scanner.nextDouble();
+        b= scanner.nextDouble();
+        c = scanner.nextDouble();
+        dis = b*b-4*a*c;
+        x1 = (-b+Math.sqrt(dis))/2*a;
+        x2 = (-b-Math.sqrt(dis))/2*a;
+        System.out.format("Корень x1= "+x1+" Корень x2= "+x2);
+
+
+    }
+}
